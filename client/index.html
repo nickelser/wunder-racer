@@ -1,0 +1,35 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+  <head>
+    <title>Wunder Racer</title>
+    
+    <link rel="stylesheet" type="text/css" href="style.css">
+    
+    <script type="text/javascript" src="doodle.js"></script>
+    <script type="text/javascript" src="jquery.js"></script>
+    <script type="text/javascript" src="underscore.js"></script>
+    <script src="/socket.io/socket.io.js"></script>
+    
+    <script type="text/javascript" src="config.js"></script>
+    <script type="text/javascript" src="sprites.js"></script>
+    <script type="text/javascript" src="renderer.js"></script>
+    <script type="text/javascript" src="network.js"></script>
+    <script type="text/javascript" src="game.js"></script>
+  </head>
+  
+  <body>
+    <div id="game_container">
+      <noscript>
+        sorry, but you are a goddamn idiot
+      </noscript>
+      
+      <div id="game">
+      </div>
+    </div>
+    <div id="messages_container"></div>
+    <div id="game_list"></div>
+    <hr />
+    <input id="name" type="text" /><button id="log_in">log in</button><br />
+    <button id="ready_button">ready</button>
+  </body>
+</html>

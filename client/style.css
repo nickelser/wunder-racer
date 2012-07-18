@@ -1,0 +1,7 @@
+#game {
+  margin: 0 auto;
+}
+
+#messages_container { height: 100px; overflow: auto; width: 800px; border: 1px solid #eee; font: 13px Helvetica, Arial; }
+#messages_container p { padding: 8px; margin: 0; }
+#messages_container p:nth-child(odd) { background: #F6F6F6; }
